@@ -1,0 +1,25 @@
+
+
+div {
+width: 100px;
+height: 100px;
+
+}
+
+
+
+#container-a {
+    background-color: brown;
+    padding: 13%;
+    margin: 100px auto;
+    display: inline-block;
+    
+}
+
+#container-b {
+    background-color: blue;
+    padding: 13%;
+    margin: 100px auto;
+    display: inline-block;
+    
+}

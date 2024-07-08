@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios aula 13</title>
+</head>
+<body>
+    <script>
+const nome = prompt('Digite seu nome completo: ')
+ document.body.innerHTML += `Seu nome é: <strong> ${nome} </strong><br />`
+ document.body.innerHTML += `Seu nome tem <strong>${nome.length} </strong>letras<br />`
+ document.body.innerHTML += `A segunda letra do seu nome eh: <strong>${nome.slice(1,2)} </strong><br />` // podera ter usado tbm o -> ${nome.charAt(1)} ou ${nome[1]}
+ document.body.innerHTML += `Qual o indice da letra "o" no seu nome? <strong>${nome.indexOf('o',0)} </strong><br />`
+ document.body.innerHTML += `Qual o ultimo indice da letra "o" no seu nome? <strong>${nome.lastIndexOf('o')} </strong><br />`
+ document.body.innerHTML += `As ultimas 3 letras do seu nome sao: <strong>${nome.slice(-3)} </strong><br />`
+ document.body.innerHTML += `As palvras do seu nome sao: <strong>${nome.split(' ')} </strong><br />`
+ document.body.innerHTML += `Seu nome com letras maiusculas: <strong>${nome.toUpperCase()} </strong><br />`
+ document.body.innerHTML += `Seu nome com letras minusculas: <strong>${nome.toLowerCase()} </strong><br />`
+
+    </script>
+</body>
+</html>

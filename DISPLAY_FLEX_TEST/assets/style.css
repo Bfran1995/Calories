@@ -1,0 +1,22 @@
+.container {
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+
+    /*o display flex nao funciona com o flex-direction: e align-items: */
+    /* o display trablha em conjunto com o o flex direction q por padrao esta em ROW (horizontal da esq para a dire)*/
+
+
+}
+
+.box {
+
+    border: 3px solid rgb(0, 0, 0);
+    justify-content: space-around;
+    flex: 1 0 200px;
+    /* elementos por ordem FLEX_GROW  FLEX-SHRINK  FLEX-BASIS*/
+    height: 60px;
+    background-color: blue;
+
+}
